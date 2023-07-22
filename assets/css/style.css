@@ -147,19 +147,27 @@ body {
 /*Estilos Contenedores*/
 
 .p-1{
+    padding: 1rem;
+}
+
+.p-1-5{
     padding: 1.5rem;
 }
 
-.p-side-1{
+.p-side-1-5{
     padding: 0 1.5rem 0 1.5rem;
 }
 
-.g-1{
+.g-0-5{
     gap: 0.5rem;
 }
 
-.g-2{
-    gap:1.5rem
+.g-1{
+    gap: 1rem;
+}
+
+.g-1-5{
+    gap: 1.5rem
 }
 
 .navbar{
@@ -194,13 +202,14 @@ body {
 }
 
 .card-body{
-    flex-grow: 1.2;
+    flex-grow: 2;
+    flex-basis: 3rem;
     width: 100%;
 }
 
 .card-footer{
     flex-grow: 1;
-    flex-basis: 2rem;
+    flex-basis: 1.5rem;
     width: 100%;
 }
 
@@ -224,6 +233,6 @@ body {
     "asidebar productgrid"
     "footer footer";
     gap: 0;
-    grid-template-rows: 5rem auto 3rem;
+    grid-template-rows: 3.5rem auto 2.5rem;
     grid-template-columns: 11rem auto;
 }
