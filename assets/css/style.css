@@ -1,0 +1,164 @@
+/* style.css */
+
+/* ------------------------------------------------------- */
+/*Importando Fuentes*/
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300;400;500;700&display=swap');
+
+/* ------------------------------------------------------- */
+/*Formateando*/
+
+body {
+    font-family: 'Roboto', sans-serif;
+}
+
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.mp-0{
+    margin: 0;
+    padding: 0;
+}
+
+/* ------------------------------------------------------- */
+/* Background color */
+
+.bg-lightgray{
+    background-color: #e7e7e7;
+}
+
+.bg-blue{
+    background-color: #25527b;
+}
+
+.bg-white{
+    background-color: white;
+}
+
+/* ------------------------------------------------------- */
+/*Estilos Flex*/
+
+.f-row{
+    display:flex;
+    flex-direction: row;
+}
+
+.f-column{
+    display:flex;
+    flex-direction: column;
+}
+
+.f-start-star{
+    justify-content: start;
+    align-items: start;
+}
+
+.f-start-center{
+    justify-content: start;
+    align-items: center;
+}
+
+.f-between-center{
+    justify-content:space-between;
+    align-items: center;
+}
+
+.f-between-start{
+    justify-content:space-between;
+    align-items: start;
+}
+
+.f-center-center{
+    justify-content: center;
+    align-items: center;
+}
+
+.f-center-start{
+    justify-content: center;
+    align-items: start;
+}
+
+/* ------------------------------------------------------- */
+/*Estilos de Textos*/
+/* Los nombres de los estilos se componene de: .text-color-tamaño-grosor-alineación*/
+
+/* text-white-medium-bold-center */
+.text-w-m-n-c{
+    color:white;
+    font-size: 1.2rem;
+    font-weight: 400;
+    text-align: center;
+}
+
+/* text-darkgray-medium-lighter-start */
+.text-dg-m-l-c{
+    color:#45448e;
+    font-size: 1.5rem;
+    font-weight: 300;
+    text-align: start;
+}
+
+/* text-gray-medium-lighter-start */
+.text-dg-m-l-c{
+    color:#9d9fa5;
+    font-size: 1rem;
+    font-weight: 300;
+    text-align: start;
+}
+
+/* text-darkestgray-large-bold-start */
+.text-dtg-l-b-s{
+    color:#393e48;
+    font-size: 1.5rem;
+    font-weight: 700;
+    text-align: start;
+}
+
+/* text-darkestgray-xlarge-bold-center */
+.text-dtg-l-b-c{
+    color:#393e48;
+    font-size: 2rem;
+    font-weight: 700;
+    text-align: center;
+}
+
+/* text-darkgray-small-lighter-center */
+.text-dg-s-l-c{
+    color:#45448e;
+    font-size: 0.8rem;
+    font-weight: 300;
+    text-align: center;
+}
+
+/* ------------------------------------------------------- */
+/*Estilos Contenedores*/
+
+.navbar{
+    grid-area: navbar;
+}
+
+.asidebar{
+    grid-area: asidebar;
+}
+
+.productgrid{
+    grid-area: productgrid;
+}
+
+.footer{
+    grid-area:footer;
+}
+
+.layout{
+    width: 100vw;
+    height: 100vh;
+    display: grid;
+    grid-template-areas: 
+    "navbar navbar"
+    "asidebar productgrid"
+    "footer footer";
+    gap: 0;
+    grid-template-rows: 5rem auto 5rem;
+    grid-template-columns: 20rem auto;
+}
