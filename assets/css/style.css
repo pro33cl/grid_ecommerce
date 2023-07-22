@@ -16,11 +16,6 @@ body {
     padding: 0;
 }
 
-.mp-0{
-    margin: 0;
-    padding: 0;
-}
-
 /* ------------------------------------------------------- */
 /* Background color */
 
@@ -196,7 +191,9 @@ body {
 }
 
 .card-header{
-    flex-grow: auto;
+    flex-grow: 4;
+    flex-basis: auto;
+    width: 100%;
 }
 
 .image-format{
