@@ -92,7 +92,7 @@ body {
 /* text-white-medium-normal-center */
 .text-w-m-n-c{
     color:white;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: center;
 }
@@ -100,7 +100,7 @@ body {
 /* text-darkestgray-large-bold-start */
 .text-dtg-l-b-s{
     color:#393e48;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: start;
 }
@@ -108,7 +108,7 @@ body {
 /* text-darkgray-medium-normal-start */
 .text-dg-m-n-s{
     color:#45448e;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: start;
 }
@@ -116,17 +116,15 @@ body {
 /* text-gray-medium-lighter-start */
 .text-g-m-n-s{
     color:#9d9fa5;
-    font-size: 1.2rem;
+    font-size: 1rem;
     font-weight: 400;
     text-align: start;
 }
 
-
-
 /* text-darkestgray-xlarge-bold-center */
 .text-dtg-xl-b-c{
     color:#393e48;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     font-weight: 700;
     text-align: center;
 }
@@ -134,7 +132,7 @@ body {
 /* text-darkgray-small-normal-center */
 .text-dg-s-l-c{
     color:#45448e;
-    font-size: 1rem;
+    font-size: 0.8rem;
     font-weight: 400;
     text-align: center;
 }
@@ -152,6 +150,10 @@ body {
 
 .p-1-5{
     padding: 1.5rem;
+}
+
+.p-side-1{
+    padding: 0 1rem 0 1rem;
 }
 
 .p-side-1-5{
@@ -203,13 +205,13 @@ body {
 
 .card-body{
     flex-grow: 2;
-    flex-basis: 3rem;
+    flex-basis: 3.6rem;
     width: 100%;
 }
 
 .card-footer{
     flex-grow: 1;
-    flex-basis: 1.5rem;
+    flex-basis: 1.8rem;
     width: 100%;
 }
 
@@ -233,6 +235,6 @@ body {
     "asidebar productgrid"
     "footer footer";
     gap: 0;
-    grid-template-rows: 3.5rem auto 2.5rem;
-    grid-template-columns: 11rem auto;
+    grid-template-rows: 3rem auto 2rem;
+    grid-template-columns: 9rem auto;
 }
